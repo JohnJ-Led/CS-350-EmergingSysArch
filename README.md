@@ -25,8 +25,10 @@ I did not develop a Timing Diagram for this project. I think a diagram showing t
 I believe an addition improvement if the embedded device is capable is to pass our task details in through a text file. Current task variables are hardcoded. By passing as a text file and then using an iterative loop for setting each task in out task struct array, this could allow for future personalize setting.
 
 ## What tools and/or resources are you adding to your support network?
+A new understanding of working with embedded devices. Preconceived idea was to just create code to tell the device what to do. Now there is an understanding that multiple factors exist. Factors like interrupts and byte conversion for input handling that were not previously taken into account.
 
 ## What skills from this project will be particularly transferable to other projects and/or course work?
 Within the relam of coding and not just embedded devices, working with State Machines and Switch statements seem to be a particularly transferable skill and adds a new view point of view for problem solving and working with timed task.
 
 ## How did you make this project maintainable, readable, and adaptable?
+The project was made maintainable, readable, and adaptable through the use of multiple state machine functions and a task scheduler. Using these versus' a  cluster of code to perform all task in one sitting has allowed for new task creation and updating and changes to current task reachable.
